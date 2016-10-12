@@ -1,0 +1,35 @@
+@charset="UTF-8";
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: Chalkboard;
+	background-color: #E9E9E9;
+}
+
+.top_menu{
+	background-color: #686868;
+	text-align: center;
+}
+
+.top_menu ul{
+	list-style-type: none;
+	padding: 5px 0px;
+}
+
+.top_menu li{
+	display: inline;
+	padding: 5px 40px;
+}
+
+.top_menu a{
+	color: #FFF;
+	text-decoration: none;
+	transition: color 1s linear;
+}
+
+.top_menu a:hover, .top_menu .selected a{
+	color: #CCC;
+}
